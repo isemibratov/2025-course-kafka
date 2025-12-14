@@ -1,0 +1,4 @@
+spring:
+  kafka:
+    streams:
+      auto-startup: true
