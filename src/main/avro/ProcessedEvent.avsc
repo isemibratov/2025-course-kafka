@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "ProcessedEvent",
+  "namespace": "com.example.avro",
+  "fields": [
+    { "name": "userId", "type": "string" },
+    { "name": "upperText", "type": "string" },
+    { "name": "length", "type": "int" },
+    { "name": "processedAt", "type": "long" }
+  ]
+}

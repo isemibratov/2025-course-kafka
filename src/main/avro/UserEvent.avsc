@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "name": "UserEvent",
+  "namespace": "com.example.avro",
+  "fields": [
+    { "name": "userId", "type": "string" },
+    { "name": "text", "type": "string" },
+    { "name": "eventTs", "type": "long", "default": 0 }
+  ]
+}
